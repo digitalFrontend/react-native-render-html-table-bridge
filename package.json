@@ -7,11 +7,7 @@
     "lib/**/*"
   ],
   "types": "lib/index.d.ts",
-  "scripts": {
-    "build": "rimraf lib; tsc --project ./tsconfig.json",
-    "prepare": "npm run build",
-    "lint": "tslint 'src/**/*?(.d).ts?(x)' --fix"
-  },
+  "scripts": {},
   "keywords": [
     "react native",
     "html",
